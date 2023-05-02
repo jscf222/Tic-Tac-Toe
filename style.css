@@ -1,0 +1,9 @@
+/* center the everything to the center of screen */
+
+
+.player1 {
+    display: flex;
+}
+.player2{
+    display: flex;
+}
