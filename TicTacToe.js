@@ -7,3 +7,6 @@ console.log(boxes)
 let O_Text = 'O'
 let X_Text = 'X'
 let currentPlayer = X_Text
+// filling spaces with a null
+let spaces = Array(9).fill(null)
+console.log(spaces)
