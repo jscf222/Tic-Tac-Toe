@@ -1,9 +1,86 @@
 /* center the everything to the center of screen */
+/* might delete player displays to only show up for whoever won */
+*{
+    background-color: #222c3c ;
+  box-sizing: border-box;
 
-
-.player1 {
-    display: flex;
 }
+h1{
+   
+    font-family: 'Stylish', sans-serif;
+    color: #e2e0d5;
+    text-transform: uppercase;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    height: 100vh;
+
+}
+
+#board-boxes{
+    display: flex;
+    width: 450px;
+flex-wrap: wrap;
+margin-top: 40px;
+}
+/* adjusting boxes */
+#box{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#d8b26e;
+    background-color: #000000;
+
+}
+/* creating button and hover effect */
+button{
+    font-size: 18px;
+    font-family: 'Stylish', sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #d8b26e;
+    border-color: #222c3c;
+    transition: 200ms;
+}
+button:hover{
+    cursor: pointer;
+    transform: translateY(-7px);
+}
+/*  */
+body{
+    margin: 0;
+    padding: 0;
+    color: #999ea7 ;
+    font-family: 'Stylish', sans-serif;
+
+}
+
+
+ /* .player1 {
+    display: flex;
+    padding-left: 20px;
+    
+} 
 .player2{
     display: flex;
-}
+    justify-content: center;
+    padding-left: 200px;
+}  */
+
+
+
+/* to make bakcground img
+body {
+  background-image: url("img_tree.gif");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
