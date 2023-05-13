@@ -1,15 +1,42 @@
 /* center the everything to the center of screen */
 /* might delete player displays to only show up for whoever won */
 *{
+    
     background-color: #222c3c ;
   box-sizing: border-box;
 
 }
 h1{
-   
+   display: flex;
+   align-items: center;
+   justify-content: center;
     font-family: 'Stylish', sans-serif;
     color: #e2e0d5;
     text-transform: uppercase;
+}
+.rules{
+   
+    padding-right: 500px;
+    padding-left: 550px;
+    font-size: large;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#d3d5da;
+   
+}
+:root{
+    --font-family:'Stylish', sans-serif; 
+}
+
+#playerText{
+     display: flex;
+   align-items: center;
+   justify-content: center;
+    font-family: 'Stylish', sans-serif;
+    color: #e2e0d5;
+    text-transform: uppercase;  
 }
 
 .container{
@@ -19,8 +46,8 @@ h1{
     align-items: center;
     flex-direction: column;
     padding: 25px;
-    height: 100vh;
-
+    height: 75vh;
+    cursor: pointer;
 }
 
 #board-boxes{
@@ -31,18 +58,23 @@ margin-top: 40px;
 }
 /* adjusting boxes */
 .box{
+    font-family: 'Stylish', sans-serif;
+    font-size: larger;
     height: 150px;
     width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#d8b26e;
+    color:Black;
     background-color:#b69b7d;
     border: 1px solid #222c3c;
 
 }
 /* creating button and hover effect */
 button{
+    display: flex;
+    flex-direction: column;
+
     font-size: 18px;
     font-family: 'Stylish', sans-serif;
     padding: 10px 20px;
@@ -50,6 +82,7 @@ button{
     background-color: #d8b26e;
     border-color: #222c3c;
     transition: 200ms;
+    
 }
 button:hover{
     cursor: pointer;
