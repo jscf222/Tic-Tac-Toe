@@ -43,7 +43,8 @@ let winningVariants = [
     [3,6,9],
     [3,6,9],
     [1,5,9],
-    [3,5,7]
+    [3,5,7],
+    [1,4,7]
     
 ]
 function playerWon (){
